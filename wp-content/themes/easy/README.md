@@ -1,5 +1,4 @@
 # Easy Test
-This is the easiest test. Please take your time, it's just for evaluating your level in order to mentor you the more beneficial way during your internship :)
 
 ## Git (if you can)
 Before doing anything we need to have a copy of your answers. We use git to see how you can use it, name your commits, etc.
@@ -8,41 +7,6 @@ Before doing anything we need to have a copy of your answers. We use git to see 
 * Create a branch and name it as you want
 * You could whatever software you want to ease the process : smartgit, git kraken, sourcetree, etc
 * Try to make one commit and push it
-
-# Dig into PHP
-
-## Exercise
-For the next questions write all your answers in the file `wp-content/themes/easy/php-exercice/answers.php`
-
-Note that there will not be any "compilation" so it's not worth to make it work. A text file would be fine ! 
-
-**Reminder : make as much commits as possible means one foreach answer, it's important.**
-
-### Display
-Try to echo these following cases :
-
-* A string (whatever you want)
-* A string with numbers
-* A string with special characters
-* Conditionally change the string with a true/false condition
-* A concatenation of theses 3 different strings
-
-### Loops
-* Display all numbers between 1 and 10 (including 10) using a `while` loop
-* Same as before but with a `for` loop
-* Wrap the while loop inside a function and call it
-* Write a function that take a parameter `$max` and display all values from 1 to `$max` using a `while` loop. Call it with a value of 20
-
-### Arrays
-Given this array `array(5, 12, 10, 21, 2, 6, 8, 20, 14, 9, 12)`
-
-Write & wrap your code inside functions for the following cases :
-
-* Display all the elements of the array
-* Find the average value
-* Find out how many values are equal or greater than 10
-* Check if the value 20 is present in the array
-* Get the greatest value of the array
 
 # WordPress is your best Friend
 You are done for the first part, now let's got to the WordPress part !
