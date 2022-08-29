@@ -19,7 +19,7 @@ Before that ask for checking in order to see what has been done.
 - [x] Activate your theme
 
 ## Theme templating
-* From the html folder ( `themes/easy/html/` ) you would have to carve and build the different templates, let's begin with the header and footer block.
+- [x] From the html folder ( `themes/easy/html/` ) you would have to carve and build the different templates, let's begin with the header and footer block.
 
 ### Header / Footer
 - [x] Header : localize the header part and isolate it inside header.php
