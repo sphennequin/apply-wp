@@ -29,14 +29,14 @@ Before that ask for checking in order to see what has been done.
 
 #### Dynamization
 Now your html has been splitted out, you must dynamize it, that means replacing all :
-* relative urls into absolute urls
-* same for image's source
-* also apply to assets (css/javascript)
+- [x] relative urls into absolute urls
+- [x] same for image's source
+- [x] also apply to assets (css/javascript)
 * so on ..
-Do it on header and footer with [`get_stylesheet_directory_uri()`](https://codex.wordpress.org/Function_Reference/get_stylesheet_directory_uri), then ask for checking
+- [x] Do it on header and footer with [`get_stylesheet_directory_uri()`](https://codex.wordpress.org/Function_Reference/get_stylesheet_directory_uri), then ask for checking
 
 ### WP_Query
 On homepage display the last 6 news.
-* Use the [wp_query](http://www.geekpress.fr/wp-query-creez-des-requetes-personnalisees-dans-vos-themes-wordpress/) to get the 6th last (date) news
-* Create a [loop](https://code.tutsplus.com/tutorials/a-beginners-guide-to-the-wordpress-loop--wp-20241) for display purpose
-* Try to use a loop template foreach item with `get_template_part()` wp function
+- [x] Use the [wp_query](http://www.geekpress.fr/wp-query-creez-des-requetes-personnalisees-dans-vos-themes-wordpress/) to get the 6th last (date) news
+- [x] Create a [loop](https://code.tutsplus.com/tutorials/a-beginners-guide-to-the-wordpress-loop--wp-20241) for display purpose
+- [x] Try to use a loop template foreach item with `get_template_part()` wp function
