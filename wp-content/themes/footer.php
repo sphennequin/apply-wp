@@ -42,5 +42,7 @@
 	<script src="js/jquery.countTo.js"></script>
 	<script src="js/particles.min.js"></script>
 	<script src="js/main.js"></script>
+
+    <?php wp_footer() ?>
 </body>
 </html>

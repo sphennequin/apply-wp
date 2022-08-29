@@ -35,6 +35,8 @@
 	<!--[if IE]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
+
+    <?php wp_head() ?>
 </head>
 <body>
 	<!-- preloader -->
