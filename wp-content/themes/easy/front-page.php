@@ -61,7 +61,7 @@
                         <ul class="work-list">
                             <?php
                                 // Selection des articles de la catégorie "News"
-                                $args = array( 'category_name' => 'News', 'posts_per_page' => 6 );
+                                $args = array( 'category_name' => 'News', 'order_by' => 'date', 'posts_per_page' => 6 );
                                 // Creation de la requete en utilisant ces arguments
                                 $query = new WP_Query($args);
                             ?>
