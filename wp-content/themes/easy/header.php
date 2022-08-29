@@ -4,7 +4,6 @@
 <head>
 	<!-- title -->
 	<meta charset="utf-8">
-	<title>Vincent - Personal Portfolio Template</title>
 	
 	<!-- description -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
