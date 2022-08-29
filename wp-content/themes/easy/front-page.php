@@ -56,34 +56,26 @@
                 </div>
                 
                 <div class="gallery-wrapper	col-sm-12 col-xs-12">
-                    <!-- portfolio-row-1 -->
+                    <!-- news-row-1 -->
                     <div class="portfolio-block">
                         <ul class="work-list">
-                            <li><a href="project.html">
-                                <img src="images/380x380.jpg" alt="">
-                                <div class="gallery-content">
-                                    <div class="project-title">Project Title</div>
-                                    <div class="project-client">Client</div>
-                                </div>
-                            </a></li>
-                            <li><a href="project.html">
-                                <img src="images/380x380.jpg" alt="">
-                                <div class="gallery-content">
-                                    <div class="project-title">Project Title</div>
-                                    <div class="project-client">Client</div>
-                                </div>
-                            </a></li>
-                            <li><a href="project.html">
-                                <img src="images/380x380.jpg" alt="">
-                                <div class="gallery-content">
-                                    <div class="project-title">Project Title</div>
-                                    <div class="project-client">Client</div>
-                                </div>
-                            </a></li>
+                            <?php
+                                // Selection des articles de la catégorie "News"
+                                $args = array( 'category_name' => 'News', 'posts_per_page' => 6 );
+                                // Creation de la requete en utilisant ces arguments
+                                $query = new WP_Query($args);
+                            ?>
+                            
+                            <!-- Creation de la boucle de posts -->
+                            <?php if( $query->have_posts() ): ?>
+                                <?php while( $query->have_posts() ): $query->the_post(); ?>
+                                    <?php get_template_part( 'partials/actu' ); ?>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                         </ul>
                     </div>
 
-                    <!-- portfolio-row-2 -->
+                    <!-- portfolio-row-2
                     <div class="portfolio-block ">
                         <ul class="work-list">
                             <li><a href="project.html">
@@ -109,6 +101,7 @@
                             </a></li>
                         </ul>	
                     </div>
+                    -->
                 </div>
 
                 <div class="col-sm-12">
