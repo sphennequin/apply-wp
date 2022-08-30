@@ -6,7 +6,7 @@
 		<div id="header" class="portfolio">
 			<div class="container">
 				<div class="row">
-					
+
 					<div class="hmb-wrapper">
 						<span>
 							<span id="menu">
@@ -33,8 +33,8 @@
 				<div class="row center-block">
 
 					<div class="title-project col-sm-7 col-xs-12">
-						<h2>Project Title. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						<h2><?php the_title() ?></h2>
+						<p><?php the_content() ?></p>
 					</div>
 					<div class="title-detail col-sm-4 col-sm-offset-1 col-xs-12">
 						<h3>Project Details</h3>
@@ -45,11 +45,11 @@
 							<li><div class="title-p">Website:</div> pixel-show.com</li>
 						</ul>
 					</div>
-				
+
 					<div class="col-sm-12 col-xs-12">
 						<img src="images/1200x800.jpg" alt="">
 					</div>
-					
+
 					<div class="col-sm-8 col-sm-offset-2">
 						<div class="project-footer">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
